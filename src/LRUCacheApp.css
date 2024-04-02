@@ -1,0 +1,57 @@
+.container {
+  text-align: left;
+  background-color: #19436d;
+  height: 80vh;
+  padding: 5rem;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  flex: 1;
+}
+
+.header {
+  text-transform: uppercase;
+  color: white;
+}
+
+.setcache {
+  padding-left: 2rem;
+}
+.getcache {
+  padding-left: 5rem;
+}
+
+.setcacheval {
+  padding-left: 2rem;
+  padding-top: 14.5rem;
+}
+.getcacheval {
+  padding-left: 2rem;
+  padding-top: 6rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
